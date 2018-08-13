@@ -23,6 +23,8 @@ import jp.co.yuu.chintaiDB.domain.ScrapingStatus;
 @Service
 public class ScrapingService {
 
+	// TODO : Java8の記法に変更する
+
 	// --- 山手線を想定 ---
 	// TODO : 山手線以外も都内は全部対応できるようにする。excuteメソッドでURLを渡せるようにするのが良いかも。
 	String pageUrl = "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?ar=030&bs=040&ra=013&cb=0.0&ct=9999999&et=9999999&cn=9999999&mb=0&mt=9999999&shkr1=03&shkr2=03&shkr3=03&shkr4=03&fw2=&rn=0005";
