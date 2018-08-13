@@ -2,3 +2,5 @@
 /target/
 /bin/
 .txt
+.classpath
+.project
